@@ -12,7 +12,7 @@ public class Treeset {
         animals.add("elephant");
         //don't allow Duplicates
         animals.add("cow");
-        log.info(String.valueOf(animals));
+        log.log(Level.INFO,()->String.valueOf(animals));
         TreeSet<String> animals1=new TreeSet<>();
         animals1.add("pandas");
         animals1.add("horses");

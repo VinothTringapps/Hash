@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11e3d6d2-974f-4342-92cb-6a422e32bbf0" name="Changes" comment="upload Successful">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Hash.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Hash.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Hashset.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Hashset.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Treeset.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Treeset.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +63,21 @@
       <option name="project" value="LOCAL" />
       <updated>1676032372557</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="upload Successful">
+      <created>1676034966018</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1676034966018</updated>
+    </task>
+    <task id="LOCAL-00003" summary="upload Successful">
+      <created>1676034983368</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1676034983368</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
