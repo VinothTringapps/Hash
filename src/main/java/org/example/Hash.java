@@ -11,7 +11,7 @@ public class Hash{
         HashMap <Integer,String> hash=new HashMap<>();
         hash.put(1,"vi");
         Logger l= Logger.getLogger("Hash");
-        System.out.println("Enter the choice :");
+        l.info("Enter the choice :");
         Scanner sc=new Scanner(System.in);
         while(true){
             l.info("1.Add\t2.size\t3.Remove\t4.display\nEnter the Choice :");
