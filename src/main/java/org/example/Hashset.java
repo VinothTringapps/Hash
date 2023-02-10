@@ -9,17 +9,17 @@ public class Hashset {
         hash.add("vinoth");
         hash.add("Gopi");
         hash.add("virat");
-        log.info(String.valueOf(hash));
+        log.log(Level.INFO,()->String.valueOf(hash));
         log.info("Remove");
         hash.remove("virat");
-        log.info(String.valueOf(hash));
+        log.log(Level.INFO,()->String.valueOf(hash));
         HashSet<String> hash1=new HashSet<>();
         hash1.add("nitin");
         hash1.add("dhoni");
         hash1.addAll(hash);
-        log.info(String.valueOf(hash1));
+        log.log(Level.INFO,()->String.valueOf(hash1));
         hash1.clear();
-        log.info(String.valueOf(hash1));
+        log.log(Level.INFO,()->String.valueOf(hash1));
 
     }
 }

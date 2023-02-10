@@ -17,16 +17,16 @@ public class Treeset {
         animals1.add("pandas");
         animals1.add("horses");
         animals1.add("cats");
-        log.info(String.valueOf(animals1));
+        log.log(Level.INFO,()->String.valueOf(animals1));
         animals1.addAll(animals);
-        log.info(String.valueOf(animals1));
-        log.info(String.valueOf(animals1.contains("cow")));
+        log.log(Level.INFO,()->String.valueOf(animals1));
+        log.log(Level.INFO,()->String.valueOf(animals1.contains("cow")));
         animals1.remove("cow");
-        log.info(String.valueOf(animals1));
+        log.log(Level.INFO,()->String.valueOf(animals1));
         animals1.clear();
-        log.info(String.valueOf(animals1));
-        log.info(String.valueOf(animals.last()));
-        log.info(String.valueOf(animals.first()));
+        log.log(Level.INFO,()->String.valueOf(animals1));
+        log.log(Level.INFO,()->String.valueOf(animals.last()));
+        log.log(Level.INFO,()->String.valueOf(animals.first()));
 
 
     }
