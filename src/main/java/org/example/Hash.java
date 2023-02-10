@@ -41,7 +41,8 @@ public class Hash{
                 if(choice==1){
                     l.info("Enter the Value :");
                     rollNo=sc.nextInt();
-                    l.info(String.valueOf(hash.remove(rollNo)));
+                    String s=hash.remove(rollNo);
+                    l.log(Level.INFO,()->s);
                 }
                 else {
                     hash.clear();
@@ -55,11 +56,12 @@ public class Hash{
                 if(choice==1){
                     l.info("Enter the value : ");
                     rollNo=sc.nextInt();
-                    l.info(String.valueOf(hash.get(rollNo)));
+                    String s2=hash.get(rollNo);
+                    l.log(Level.INFO,()->s2);
                 }
 
                 else {
-                    l.info(String.valueOf(hash));
+                    l.log(Level.INFO,()-> String.valueOf(hash));
 
                 }
             }
